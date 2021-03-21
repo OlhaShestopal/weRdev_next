@@ -1,0 +1,48 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.container{
+  width: 86%;
+  margin: 0 auto;
+  flex-grow: 0;
+}
+.main_content{
+  flex-grow: 1;
+  background: green;
+}
+.header{
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  color: #3D3D3D;
+}
+.logo{
+  display: block;
+  width: 165px;
+  height: 50px;
+}
+.logo_lable{
+  display: inline-block;
+  background: #FDD000;
+  width: 34px;
+  font-size: 27px;
+  
+}
+.logo_text{
+font-size: 45px;
+line-height: 1.5;
+}
+.nav{
+  display: flex;
+  list-style: none;
+  
+  font-size: 28px;
+
+}
+.nav__item{
+  margin-left: 70px;
+  text-decoration: none;
+}
